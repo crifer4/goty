@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Revisar compatibilidad de versiones de angular y firebase y peer dependencies
+
+Hacer build despues de actualizar el app
+
+ng build --configuration production --aot
+
+firebase init  
+
+firebase deploy
+
+##Check
+revisar documentacion de fierbase para verificar si esta bien configurado debido a la diferencia de verisones
